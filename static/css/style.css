@@ -103,10 +103,11 @@ img {
 }
 img:hover{
   transform: rotate(-6deg);
+  transition: 300ms;
 }
 div{
   background-color: rgb(56, 224, 210);
-  width: 100%;
+  width: 75%;
   height: auto;
 }
 main p{
