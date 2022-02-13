@@ -96,7 +96,10 @@ main h3 {
 main p, a{
   font-weight: bold;
 }
-
+img {
+  width: 100%;
+  height: auto;
+}
 main p{
   font-family: 'Main';
   font-size: 1.4em;
