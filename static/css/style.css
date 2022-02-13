@@ -3,7 +3,7 @@
   src: url(../fonts/Coco\ Gothic.ttf);
 
   font-family: 'Header';
-  src: url(../fonts/Creation.ttf);
+  src: url(../fonts/Creattion Demo.ttf);
 
   font-family: 'Mono';
   src: url(../fonts/RobotoMono.ttf);
@@ -107,7 +107,12 @@ main p{
 }
 
 .social-links a{
-  padding: 14px;
+  background-color: var(--accent);
+  color: var(--background);
+
+  border: solid 2px var(--accent);
+
+  padding: 7.4px;
   margin: 10px;
 }
 
