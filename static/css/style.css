@@ -99,6 +99,10 @@ main p, a{
 img {
   width: 100%;
   height: auto;
+
+}
+img:hover{
+  transform: rotate(-6deg);
 }
 div{
   background-color: rgb(56, 224, 210);
