@@ -22,14 +22,21 @@ html {
   padding: 0 auto;
   margin: 0 auto;
 
+  overflow-x: hidden;
+
   background-color: var(--background);
   color: var(--text);
 
   font-family: 'Coco Gothic', 'Helvetica';
 
   background-image: url(../images/background.jpeg);
+  /* background-repeat: repeat; */
+  background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
+
 }
+
 
 a {
   text-decoration: none;
@@ -46,15 +53,16 @@ header {
   background: var(--header-background);
   color: var(--header);
   
-  margin: -15px;
+  margin: 0;
   width: 0 auto;
 
   display: flex;
   align-items: center;
+
 }
 
 header h1 {
-  padding: 10px;
+  padding: 15px;
 }
 
 nav {
@@ -66,3 +74,26 @@ nav {
 nav a{
   padding: 2em;
 }
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+::-webkit-scrollbar-track {
+background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+background: transparent;
+}
+
+::-webkit-scrollbar-thumb:hover {
+background: transparent;
+}
+@media (min-device-width : 600px)   
+{ 
+  html{
+    background-image: url(../images/background.jpeg);
+    background-repeat: no-repeat;
+  }    
+} 
