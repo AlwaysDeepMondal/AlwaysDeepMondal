@@ -4,7 +4,7 @@
   src: url(../fonts/Coco\ Gothic.ttf);
 
   font-family: 'Creattion Demo';
-  src: url(../fonts/creattion-font/CreattionDemo-GO3ED.ttf);
+  src: url(../fonts/Creattion\ Demo.ttf);
 
   font-family: 'Mono';
   src: url(../fonts/RobotoMono.ttf);
@@ -48,7 +48,7 @@ a:hover{
 }
 
 header {
-  font-family: 'Creation';
+  font-family: 'Creattion Demo';
   padding: 10px 16px;
   margin: -20px ;
 
@@ -63,10 +63,7 @@ header {
 
 }
 
-h1 {
-  font-family: 'Header', 'Helvetica';
-  padding: 15px;
-}
+
 
 nav {
   padding: 1em 0;
