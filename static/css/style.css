@@ -2,8 +2,8 @@
   font-family: 'Coco Gothic';
   src: url(../fonts/Coco\ Gothic.ttf);
 
-  font-family: 'Header';
-  src: url(../fonts/Creattion Demo.ttf);
+  font-family: 'Creattion Demo';
+  src: url();
 
   font-family: 'Mono';
   src: url(../fonts/RobotoMono.ttf);
@@ -63,8 +63,7 @@ header {
 }
 
 h1 {
-  font-family: 'Header';
-  color: red;
+  font-family: 'Header', 'Helvetica';
   padding: 15px;
 }
 
