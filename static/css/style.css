@@ -8,14 +8,14 @@
 
 :root {
 
-  --background: rgb(1, 80, 104);
+  --background: #25283D;
 
-  --text: #FFFFFA;
-  --accent: rgb(255, 0, 255);
-  --link: #fa5eff;
+  --text: #EFD9CE;
+  --accent: #07BEB8;
+  --link: #98DFEA;
 
-  --header: #FFFFFA;
-  --header-background: rgb(10, 31, 54); 
+  --header: #EFD9CE;
+  --header-background: #25283D; 
   
 }
 
