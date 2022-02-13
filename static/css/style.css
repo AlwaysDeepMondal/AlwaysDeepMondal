@@ -33,7 +33,7 @@ html {
 
 a {
   text-decoration: none;
-  color: var(--link)
+  color: var(--link);
 }
 
 a:hover{
@@ -80,14 +80,15 @@ main h3 {
   font-weight: bolder;
 }
 
-main p{
+main p, a{
   font-size: 1em;
   font-weight: bold;
 }
 
 .social-links {
+  font-family: 'Courier New', Courier, monospace;
   display: flex;
-  justify-content: center;
+  justify-content: right;
 }
 
 .social-links a{
