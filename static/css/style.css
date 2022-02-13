@@ -2,8 +2,14 @@
   font-family: 'Coco Gothic';
   src: url(../fonts/Coco\ Gothic.ttf);
 
-  font-family: 'Creation';
-  src: url(../fonts/Creattion.otf);
+  font-family: 'Header';
+  src: url(../fonts/Creation.ttf);
+
+  font-family: 'Mono';
+  src: url(../fonts/RobotoMono.ttf);
+
+  font-family: 'Main';
+  src: url(../fonts/AkayaTelivigala.ttf);
 }
 
 :root {
@@ -56,7 +62,9 @@ header {
 
 }
 
-header h1 {
+h1 {
+  font-family: 'Header';
+  color: red;
   padding: 15px;
 }
 
@@ -66,10 +74,12 @@ nav {
   justify-content: center;
   align-items: center;
 }
+
 article {
   display: flex;
   justify-content: center;
 }
+
 .content {
   text-align: left;
   width: 400px;
@@ -77,16 +87,21 @@ article {
 
 main h3 {
   font-size: 2em;
+  font-family: 'Main';
   font-weight: bolder;
 }
 
 main p, a{
-  font-size: 1em;
   font-weight: bold;
 }
 
+main p{
+  font-family: 'Main';
+  font-size: 1.4em;
+}
+
 .social-links {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Mono', Courier, monospace;
   display: flex;
   justify-content: right;
 }
