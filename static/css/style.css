@@ -8,13 +8,14 @@
 
 :root {
 
-  --background: rgb(10, 31, 54);
+  --background: rgb(1, 80, 104);
+
   --text: #FFFFFA;
   --accent: rgb(255, 0, 255);
   --link: #fa5eff;
 
   --header: #FFFFFA;
-  --header-background: rgb(1, 80, 104); 
+  --header-background: rgb(10, 31, 54); 
   
 }
 
@@ -65,16 +66,10 @@ nav {
   justify-content: center;
   align-items: center;
 }
-
-nav a{
-  padding: 2em;
+article {
+  display: flex;
+  justify-content: center;
 }
-
-nav span{
-  color: var(--text);
-  opacity: 69%;
-}
-
 .content {
   text-align: left;
   width: 400px;
@@ -88,6 +83,16 @@ main h3 {
 main p{
   font-size: 1em;
   font-weight: bold;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+}
+
+.social-links a{
+  padding: 14px;
+  margin: 10px;
 }
 
 ::-webkit-scrollbar {
