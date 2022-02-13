@@ -50,10 +50,13 @@ a:hover{
 header {
   font-family: 'Creation';
   padding: 10px 16px;
-  background: var(--header-background);
+  margin: -20px ;
+
+  background-color: var(--header-background);
+  background-image: url(../images/background.jpeg);
   color: var(--header);
   
-  margin: 0;
+  margin: -10px;
   width: 0 auto;
 
   display: flex;
@@ -66,6 +69,7 @@ header h1 {
 }
 
 nav {
+  padding: 1em 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -73,6 +77,11 @@ nav {
 
 nav a{
   padding: 2em;
+}
+
+nav span{
+  color: var(--text);
+  opacity: 69%;
 }
 
 ::-webkit-scrollbar {
@@ -90,10 +99,3 @@ background: transparent;
 ::-webkit-scrollbar-thumb:hover {
 background: transparent;
 }
-@media (min-device-width : 600px)   
-{ 
-  html{
-    background-image: url(../images/background.jpeg);
-    background-repeat: no-repeat;
-  }    
-} 
