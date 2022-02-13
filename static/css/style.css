@@ -1,9 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 @font-face {
   font-family: 'Coco Gothic';
   src: url(../fonts/Coco\ Gothic.ttf);
 
   font-family: 'Creattion Demo';
-  src: url();
+  src: url(../fonts/creattion-font/CreattionDemo-GO3ED.ttf);
 
   font-family: 'Mono';
   src: url(../fonts/RobotoMono.ttf);
@@ -100,7 +101,7 @@ main p{
 }
 
 .social-links {
-  font-family: 'Mono', Courier, monospace;
+  font-family: 'Roboto Mono', monospace;
   display: flex;
   justify-content: right;
 }
@@ -111,7 +112,7 @@ main p{
 
   border: solid 2px var(--accent);
 
-  padding: 7.4px;
+  padding: 13px;
   margin: 10px;
 }
 
