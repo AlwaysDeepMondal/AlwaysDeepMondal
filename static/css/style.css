@@ -1,0 +1,68 @@
+@font-face {
+  font-family: 'Coco Gothic';
+  src: url(../fonts/Coco\ Gothic.ttf);
+
+  font-family: 'Creation';
+  src: url(../fonts/Creattion.otf);
+}
+
+:root {
+
+  --background: rgb(10, 31, 54);
+  --text: #FFFFFA;
+  --accent: rgb(255, 0, 255);
+  --link: #fa5eff;
+
+  --header: #FFFFFA;
+  --header-background: rgb(1, 80, 104); 
+  
+}
+
+html {
+  padding: 0 auto;
+  margin: 0 auto;
+
+  background-color: var(--background);
+  color: var(--text);
+
+  font-family: 'Coco Gothic', 'Helvetica';
+
+  background-image: url(../images/background.jpeg);
+  background-repeat: no-repeat;
+}
+
+a {
+  text-decoration: none;
+  color: var(--link)
+}
+
+a:hover{
+  color: var(--accent);
+}
+
+header {
+  font-family: 'Creation';
+  padding: 10px 16px;
+  background: var(--header-background);
+  color: var(--header);
+  
+  margin: -15px;
+  width: 0 auto;
+
+  display: flex;
+  align-items: center;
+}
+
+header h1 {
+  padding: 10px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav a{
+  padding: 2em;
+}
