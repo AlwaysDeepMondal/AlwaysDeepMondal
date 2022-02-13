@@ -82,10 +82,12 @@ nav span{
 
 main h3 {
   font-size: 2em;
+  font-weight: bolder;
 }
 
 main p{
   font-size: 1em;
+  font-weight: bold;
 }
 
 ::-webkit-scrollbar {
