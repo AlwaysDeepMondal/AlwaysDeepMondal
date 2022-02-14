@@ -11,18 +11,23 @@
 
   font-family: 'Main';
   src: url(../fonts/AkayaTelivigala.ttf);
+
+  font-family: 'rubik';
+  src: url(../fonts/Rubik-VariableFont_wght.ttf);
+
+  
 }
 
 :root {
 
-  --background: #eae7dc;
+  --background: #eb7e25;
 
-  --text: #272423;
-  --accent: #8e8d8a;
-  --link: #e85a4f;
+  --text: #000000;
+  --accent: #000000fb;
+  --link: #07393c;
 
-  --header: #e85a4f;
-  --header-background: #383734; 
+  --header: #021718;
+  --header-background: #FFFFFA; 
   
 }
 
@@ -39,6 +44,7 @@ html {
 }
 
 a {
+  font-family: 'rubik';
   text-decoration: none;
   color: var(--link);
 }
@@ -67,9 +73,6 @@ h1{
   font-size: 50px;
 }
 
-
-
-
 nav {
   padding: 1em 0;
   display: flex;
@@ -85,6 +88,13 @@ article {
 .content {
   text-align: left;
   width: 400px;
+}
+main h4
+{
+  justify-content: right;
+  align-items: right;
+
+
 }
 
 main h3 {
@@ -106,14 +116,30 @@ img:hover{
   transition: 300ms;
 }
 div{
-  background-color: rgb(56, 224, 210);
+  background-color: rgb(62, 134, 128);
   width: 80%;
   height: auto;
 }
+div:hover{
+  transform: rotate(+3deg);
+  transition: 300ms;
+}
+
 main p{
   font-family: 'Main';
   font-size: 1.4em;
 }
+main h5{
+  width: 40%;
+  height: auto;
+}
+main h5:hover{
+  transform: rotate(+3deg);
+  
+  transition: 300ms;
+
+}
+  
 
 .social-links {
   font-family: 'Roboto Mono', monospace;
@@ -122,10 +148,10 @@ main p{
 }
 
 .social-links a{
-  background-color: var(--accent);
+  
   color: var(--background);
 
-  border: solid 2px var(--accent);
+  
 
   padding: 13px;
   margin: 10px;
@@ -133,7 +159,7 @@ main p{
 
 .social-links a:hover{
   background-color: var(--background);
-  color: var(--accent);
+  
 }
 
 ::-webkit-scrollbar {
