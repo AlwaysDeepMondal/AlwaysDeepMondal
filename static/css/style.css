@@ -212,8 +212,8 @@ body {
   }
   .social-links {
     font-family: 'Roboto Mono', monospace;
-    display: contents;
-    justify-content: right;
+    display: flex;
+    justify-content: center;
   }
   a4{
     padding: 5px;
